@@ -1,7 +1,10 @@
 # gsadminValidate
 part of gsadmin, Elegant handling of custom validation for gin!
 
+gsadminValidate 是开源[gsadmin](https://github.com/sonhineboy/gsadmin)核心的一部分; gsadmin它是golang 开发的一个企业级后台。遵循MIT开源协议。前端框架是scui,SCUI基于 Vue3、elementPlus 持续性的提供独家组件和丰富的业务模板帮助你快速搭建企业级中后台前端任务。后端框架是gin,Gin是一个golang的微框架，封装比较优雅，具有快速灵活，容错方便等特点。内置了权限管理、用户管理等基础模块儿，还支持了事件服务，方便业务解耦。后续会根据用户的反馈更新内容！
+
 ## 安装
+> 可以独立于gsadmin 之外使用;但是依赖gin 框架
 ```go
 go get -u github.com/sonhineboy/gsadminValidator
 ```
